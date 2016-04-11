@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/siu/example/com/temworkgit/CustomAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/siu/example/com/temworkgit/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6069364">
-              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.5635838">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1648,7 +1648,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="35" />
     <option name="y" value="24" />
     <option name="width" value="958" />
     <option name="height" value="836" />
@@ -1954,7 +1954,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="24" width="958" height="836" extended-state="0" />
+    <frame x="35" y="24" width="958" height="836" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2021,7 +2021,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/siu/example/com/temworkgit/CustomAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2030,8 +2030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/siu/example/com/temworkgit/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6069364">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.5635838">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
