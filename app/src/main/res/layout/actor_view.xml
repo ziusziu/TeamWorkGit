@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Oscals won: "/>
+            android:text="Oscars won: "/>
 
         <TextView
             android:id="@+id/actor_oscarsWon_textView"
