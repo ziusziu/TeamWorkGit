@@ -35,6 +35,8 @@ public class CustomAdapter extends ArrayAdapter<Actor> {
         actorOscarWon.setText(""+ actor.getOscarWon());
 
 
+
+
         return actorsInfo;
     }
 }
