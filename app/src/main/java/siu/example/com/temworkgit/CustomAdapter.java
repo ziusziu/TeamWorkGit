@@ -24,7 +24,7 @@ public class CustomAdapter extends ArrayAdapter<Actor> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View actorsInfo = LayoutInflater.from(parent.getContext()).inflate(R.layout.actor_view, parent, false));
+        View actorsInfo = LayoutInflater.from(parent.getContext()).inflate(R.layout.actor_view, parent, false);
         TextView actorName = (TextView)actorsInfo.findViewById(R.id.actor_name_textView);
         TextView actorDOB = (TextView)actorsInfo.findViewById(R.id.actor_DOB_textView);
         TextView actorOscarWon = (TextView)actorsInfo.findViewById(R.id.actor_oscarsWon_textView);
@@ -32,7 +32,7 @@ public class CustomAdapter extends ArrayAdapter<Actor> {
         Actor actor = actors.get(position);
         actorName.setText(actor.getName());
         actorDOB.setText(actor.getDOB());
-        actorOscarWon.setText(actor.getOscarWon());
+        actorOscarWon.setText(""+ actor.getOscarWon());
 
 
         return actorsInfo;
