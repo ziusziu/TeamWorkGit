@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     CustomAdapter actorAdapter;
     ArrayList<Actor> actorLists;
     ListView actorListView;
+    ArrayList<Actor> mActorsList;
 
     ArrayList<Actor> mActorsArrayList;
 
@@ -32,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
         actorLists.add(actorTwo);
         actorLists.add(actorThree);
 
+        mActorsList = new ArrayList<>();
+        Actor actorFour = new Actor("Andy Lau", "DON'T KNOW", 10);
+        Actor actorFive = new Actor("Jet Li", "DON'T KNOW", 10);
+        mActorsList.add(actorFour);
+        mActorsList.add(actorFive);
 
         mActorsArrayList = new ArrayList<>();
         Actor actorFour = new Actor("Linda Chuong", "Aug. 1988", 2);
@@ -44,7 +50,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        actorAdapter = new CustomAdapter(this, actorLists);
+
+
+
+        actorAdapter = new CustomAdapter(this, mActorsList);
         actorListView.setAdapter(actorAdapter);
 
 
