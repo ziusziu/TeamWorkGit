@@ -32,7 +32,10 @@ public class CustomAdapter extends ArrayAdapter<Actor> {
         Actor actor = actors.get(position);
         actorName.setText(actor.getName());
         actorDOB.setText(actor.getDOB());
+
         actorOscarWon.setText(""+actor.getOscarWon());
+
+
 
 
         return actorsInfo;
